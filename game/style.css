@@ -1,0 +1,38 @@
+/* Midnight Vault — page chrome around the canvas. The game itself is
+   drawn entirely in canvas code; this file only centres it. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #07090f;
+  color: #dfe6ff;
+  font-family: monospace, ui-monospace, monospace;
+}
+
+#stage {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 12px 0 24px;
+}
+
+#game {
+  display: block;
+  width: 1280px;
+  height: 800px;
+  background: #0b0e1a;
+  border: 1px solid #2e3852;
+  cursor: crosshair;
+}
+
+#help {
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: #9aa4c0;
+}
+
+#selftest {
+  display: none;
+  white-space: pre-wrap;
+  font-size: 13px;
+  color: #7dffab;
+}
